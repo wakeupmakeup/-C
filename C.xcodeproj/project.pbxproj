@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BE7CFC628DECB2800F59042 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7CFC528DECB2800F59042 /* main.c */; };
+		3B9743D6299BF3D5004FE690 /* 자료형.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B9743D5299BF3D5004FE690 /* 자료형.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B9743CB299BECA2004FE690 /* hello_world.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hello_world.c; sourceTree = "<group>"; };
+		3B9743CD299BECCE004FE690 /* 변수.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "변수.c"; sourceTree = "<group>"; };
+		3B9743CF299BF115004FE690 /* overflow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = overflow.h; sourceTree = "<group>"; };
+		3B9743D0299BF115004FE690 /* overflow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = overflow.c; sourceTree = "<group>"; };
+		3B9743D3299BF2E5004FE690 /* 2_Variables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2_Variables.c; sourceTree = "<group>"; };
+		3B9743D5299BF3D5004FE690 /* 자료형.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "자료형.c"; sourceTree = "<group>"; };
 		3BE7CFC228DECB2800F59042 /* C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE7CFC528DECB2800F59042 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,12 @@
 		3BE7CFC428DECB2800F59042 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				3BE7CFC528DECB2800F59042 /* main.c */,
+				3B9743CF299BF115004FE690 /* overflow.h */,
+				3B9743CB299BECA2004FE690 /* hello_world.c */,
+				3B9743D0299BF115004FE690 /* overflow.c */,
+				3B9743CD299BECCE004FE690 /* 변수.c */,
+				3B9743D3299BF2E5004FE690 /* 2_Variables.c */,
+				3B9743D5299BF3D5004FE690 /* 자료형.c */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -119,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE7CFC628DECB2800F59042 /* main.c in Sources */,
+				3B9743D6299BF3D5004FE690 /* 자료형.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
